@@ -1,0 +1,40 @@
+/****General Elements****/
+
+  :root {
+    --primary-font: monospace;
+    --secondary-font: sans-serif;
+  }
+
+  html {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax( 250px, 1fr ) );
+  }
+
+  body {
+    background: #333;
+    color: #fff;
+    font-family: var(--secondary-font);
+  }
+
+/**********IDs**************/
+
+  #featured-article {
+    border: 2px solid #fff;
+    border-radius: 5%;
+  }
+
+/*******Classes**********/
+  .hero {
+    background: green;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero h1 {
+    font-family: var(--primary-font);
+    text-align: center;
+  }
+
+  .hero img {
+    display: block;
+    margin: 0 auto;
+  }

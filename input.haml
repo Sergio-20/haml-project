@@ -1,0 +1,29 @@
+!!! HTML
+%html{:lang => 'en'}
+
+  %head
+    %meta{:charset => 'utf-8'}
+    %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1.0'}
+    %link{:rel => 'stylesheet', :href => 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'}
+    %link{:rel => 'stylesheet', :href => 'style.css'}
+    %title My Desk
+  %body
+    %div.hero
+      %h1 Hello, and welcome to my desk!
+      %img.col-sm-6{:src => 'https://images.pexels.com/photos/938965/pexels-photo-938965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', :alt => 'My office desk.'}
+    %p#featured-article
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    / This is just a single comment I wanted to write...
+
+    /
+      %p
+        Would you look
+        %p
+          at that! A multi-line comment!
+        -#This will not render in the HTML!!!
+
+    %script{:src => '#'}
