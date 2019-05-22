@@ -11,12 +11,31 @@
   }
 
   body {
-    background: #333;
-    color: #fff;
+    background: #fff;
+    color: #333;
     font-family: var(--secondary-font);
   }
 
+  article button:hover {
+    transform: scale(1.2);
+  }
+
+  hr {
+    background: #007bff;
+    color: #007bff;
+    height: 0.2rem;
+  }
+
 /**********IDs**************/
+
+  #main-header {
+    margin-top: 1rem;
+    padding: 0.2rem 0rem;
+  }
+
+  #main-header li {
+    cursor: pointer;
+  }
 
   #featured-article {
     border: 2px solid #fff;
@@ -25,7 +44,7 @@
 
 /*******Classes**********/
   .hero {
-    background: green;
+    background: #007bff;
     margin-bottom: 1.5rem;
   }
 
@@ -37,4 +56,10 @@
   .hero img {
     display: block;
     margin: 0 auto;
+  }
+
+  .hero img:hover {
+    border: solid 3px #fff;
+    cursor: pointer;
+    transform: scale(1.1);
   }

@@ -6,16 +6,83 @@
     %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1.0'}
     %link{:rel => 'stylesheet', :href => 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'}
     %link{:rel => 'stylesheet', :href => 'style.css'}
-    %title My Desk
+    %title Economic News Website | Home
   %body
+
+    %header{:id => 'main-header', :class => 'bg-light'}
+      %nav
+        %ul{:class => 'text-center'}
+          %li{:class => 'btn btn-primary'} The Latest
+          %li{:class => 'btn btn-primary'} North America
+          %li{:class => 'btn btn-primary'} South America
+          %li{:class => 'btn btn-primary'} Europe
+          %li{:class => 'btn btn-primary'} Asia
+          %li{:class => 'btn btn-primary'} Africa
+          %li{:class => 'btn btn-primary'} Australia
     %div.hero
-      %h1 Hello, and welcome to my desk!
-      %img.col-sm-6{:src => 'https://images.pexels.com/photos/938965/pexels-photo-938965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', :alt => 'My office desk.'}
-    %p#featured-article
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      %h1{:class => 'text-light'} All of the latest stories!
+      %img.col-sm-6{:src => 'https://images.pexels.com/photos/955447/pexels-photo-955447.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', :alt => 'Changes are coming to the business world.'}
+
+    %section
+
+      %h2 Read The Latest Stories
+      %hr
+
+      %article
+
+        %h3 New Company Shakes Up Technology Sector
+
+        %h5 May 21, 2019
+
+        %p#featured-article
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        %button{:class => 'btn btn-outline-primary', :href => '#'} Read More
+
+        %hr
+
+      %article
+
+        %h3 Cellphone Manufacturer Revolutionizes OS
+
+        %h5 May 20, 2019
+
+        %p
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        %button{:class => 'btn btn-outline-primary', :href => '#'} Read More
+
+        %hr
+
+      %article
+
+        %h3 New Trade Deal Between Company A and Company B
+
+        %h5 May 18, 2019
+
+        %p
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        %button{:class => 'btn btn-outline-primary', :href => '#'} Read More
+
+        %hr
+
+    %footer{:class => 'bg-light'}
+      %ul{:class => 'text-center'}
+        %li{:class => 'btn btn-primary'} About
+        %li{:class => 'btn btn-primary'} Contact
+        %li{:class => 'btn btn-primary'} Careers
+      %h4{:class => 'text-center'} &copy; 2019 - Economic News Website 
+
 
     / This is just a single comment I wanted to write...
 
